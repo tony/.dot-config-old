@@ -1,0 +1,51 @@
+#urxvt.font: xft:ProggySquareTTSZ-12
+#urxvt.font: xft:Terminus-10,xft:WenQuanYi Micro Hei Mono:antialias=true
+#urxvt.font: xft:DejaVu Sans Mono,xft:WenQuanYi Micro Hei Mono:style=Regular:pixelsize=11:antialias=true
+#URxvt.font:xft:WenQuanYi Bitmap Song:pixelsize=10,xft:Terminus-10,xft:WenQuanYi Micro Hei:pixelsize=12:antialias=True,xft:WenQuanYi Zen Hei:pixelsize=12:antialias=False,xft:Code2000:pixelsize=12:antialias=False
+URxvt.font:xft:Terminus-12,xft:DejaVu Sans Mono,xft:WenQuanYi Micro Hei:pixelsize=12:antialias=True,xft:WenQuanYi Zen Hei:pixelsize=12:antialias=False,xft:Code2000:pixelsize=12:antialias=False
+URxvt.boldFont:xft:Terminus-12,xft:DejaVu Sans Mono,xft:WenQuanYi Micro Hei:pixelsize=12:antialias=True,xft:WenQuanYi Zen Hei:pixelsize=12:antialias=False,xft:Code2000:pixelsize=12:antialias=False
+#URxvt.boldFont:xft:Terminus-10,xft:WenQuanYi Micro Hei:pixelsize=10:antialias=False,xft:WenQuanYi Zen Hei:pixelsize=10:antialias=False,xft:Code2000:pixelsize=10:antialias=False
+
+URxvt.inputMethod: ibus
+URxvt.preeditType: OnTheSpot,None
+
+## urxvt config
+URxvt*termName: rxvt
+URxvt*scrollBar_right:	false
+URxvt*scrollBar:	false
+URxvt*tint:		white
+#URxvt*font: xft:terminus-font:size=12x24
+*foreground:   #eaeaea
+*background:   #000000
+*cursorColor:  #aeafad
+*color0:       #000000
+*color1:       #912226
+*color2:       #778900
+*color3:       #ae7b00
+*color4:       #1d2594
+*color5:       #682a9b
+*color6:       #2b6651
+*color7:       #929593
+*color8:       #666666
+*color9:       #cc6666
+*color10:      #b5bd68
+*color11:      #f0c674
+*color12:      #81a2be
+*color13:      #b294bb
+*color14:      #8abeb7
+*color15:      #ecebec
+
+URxvt.perl-ext        : default,matcher,tabbed
+URxvt.urlLauncher     : /usr/bin/firefox
+URxvt.matcher.button  : 1
+
+## xterm config
+xterm*termName: xterm
+#xterm*background: #000000
+#xterm*foreground: #A8A8A8
+
+URxvt*transparent: true
+#URxvt*shading: 5
+
+URxvt.inputMethod: ibus
+URxvt.preeditType: OnTheSpot,None
